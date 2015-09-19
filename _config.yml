@@ -2,16 +2,16 @@
 title: CorujaLab
 email: rodrigo.avila@corujalab.com.br
 url: https://corujalab.com.br
-description: "Estamos aqui para ajudá-lo."
+description: "Precisa de ajuda para organizar seu trabalho? Estamos à disposição!"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 91aa9d #80B3FF
+  secondary: 3e606f #FD6E8A
+  secondary-dark: 193441 #A2122F
 
 # Footer settings
 footer:
@@ -23,13 +23,15 @@ footer:
 social:
   - title: twitter
     url: https://twitter.com/CorujaLab
+  - title: facebook
+    url: https://facebook.com/CorujaLab
   - title: github
     url: https://github.com/CorujaLab
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Pedro Führ 457
-  - line: Brochier, RS, 95790-000
+  - line: Rua 3, nro. 65, Bairro Bela Vista
+  - line: Montenegro, RS, 95780-000
 
 # Build settings
 markdown: kramdown
