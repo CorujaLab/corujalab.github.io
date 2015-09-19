@@ -1,4 +1,4 @@
-CorujaLab
+CorujaLab [![Build Status](https://travis-ci.org/CorujaLab/corujalab.github.io.svg?branch=master)](https://travis-ci.org/CorujaLab/corujalab.github.io)
 =========
 
 Site da CorujaLab, baseado no [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
