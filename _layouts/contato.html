@@ -1,99 +1,75 @@
 {% include head.html titulo_pagina="Contato - " %}
 
-	<body class="no-header  wsite-page-contato wsite-theme-light"><div class="body-wrap">
-	<input type="checkbox" id="nav-trigger" class="nav-trigger">
+		<div id="wrapper">
+			<div class="bg-wrapper">
+				{% include navigation.html %}
+				<div id="content-wrapper">
+					<div id="content"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
+						<div>
+						<div class="wsite-multicol">
+							<div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+								<table class="wsite-multicol-table">
+									<tbody class="wsite-multicol-tbody">
+										<tr class="wsite-multicol-tr">
+											<td class="wsite-multicol-col" style="width:58.080808080808%; padding:0 20px;">
+												<h2 class="wsite-content-title" style="text-align:left;">Entre em contato conosco</h2>
+												<div class="paragraph" style="text-align:left;">
+													<span>
+														N&atilde;o importa se voc&ecirc; est&aacute; com uma d&uacute;vida, um problema, ou se
+														simplesmente quer dizer Ol&aacute;. Estamos aqui para te ouvir.
+													</span><br />
+												</div>
+												<div>
+													{% include contact_form.html %}
+												</div>
+											</td>
 
-	<div id="header">
-		<label for="nav-trigger" class="nav-trigger hamburger">
-			<span class="open-btn">
-				<span class="mobile"></span>
-				<span class="mobile"></span>
-				<span class="mobile"></span>
-			</span>
-		</label>
-		{% include sitename.html %}
-	</div>
+											<td class="wsite-multicol-col" style="width:41.919191919192%; padding:0 20px;">
+												<h2 class="wsite-content-title" style="text-align:left;"><font size="2">ENDERE&Ccedil;O DE EMAIL</font></h2>
+												<div class="paragraph" style="text-align:left;">
+													<span>
+														falecom@corujalab.com.br
+													</span>
+												</div>
 
-	<div id="wrapper">
-		<div class="bg-wrapper">
+												<h2 class="wsite-content-title" style="text-align:left;"><font size="2" style="font-weight:normal">TELEFONE</font></h2>
+												<div class="paragraph" style="text-align:left;">
+													+55 51 94085430
+												</div>
 
-			{% include navigation.html %}
+												<h2 class="wsite-content-title" style="text-align:left;"><font size="2" style="font-weight:normal">ENDERE&Ccedil;O</font></h2>
+												<div class="paragraph" style="text-align:left;">
+													<span>
+														Rua 3, nro. 65, <br />
+														Bairro Bela Vista<br />
+													</span>
+													Montenegro, RS, 95780-000<br />
+													&#8203;Brasil
+												</div>
 
-			<div id="content-wrapper">
-				<div id="content"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
-<div>
-	<div class="wsite-multicol">
-		<div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
-			<table class="wsite-multicol-table">
-				<tbody class="wsite-multicol-tbody">
-					<tr class="wsite-multicol-tr">
-						<td class="wsite-multicol-col" style="width:58.080808080808%; padding:0 20px;">
-							<h2 class="wsite-content-title" style="text-align:left;">Entre em contato conosco</h2>
-							<div class="paragraph" style="text-align:left;">
-								<span>
-									N&atilde;o importa se voc&ecirc; est&aacute; com uma d&uacute;vida, um problema, ou se
-									simplesmente quer dizer Ol&aacute;. Estamos aqui para te ouvir.
-								</span><br />
+												<div class="wsite-map">
+												<iframe width="425" height="350"
+													frameborder="0" scrolling="no"
+													marginheight="0" marginwidth="0"
+													src="http://www.openstreetmap.org/export/embed.html?bbox=-51.481311321258545%2C-29.69148264023177%2C-51.452343463897705%2C-29.678657233297407&amp;layer=mapnik&amp;marker=-29.685070141332993%2C-51.466827392578125" style="border: 1px solid black"></iframe>
+												<br/>
+												<small>
+													<a href="https://www.openstreetmap.org/?mlat=-29.6851&amp;mlon=-51.4668#map=16/-29.6851/-51.4668">Ver Mapa Ampliado</a>
+												</small>
+											</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
-							<div>
-								{% include contact_form.html %}
-							</div>
-						</td>
-
-						<td class="wsite-multicol-col" style="width:41.919191919192%; padding:0 20px;">
-							<h2 class="wsite-content-title" style="text-align:left;"><font size="2">ENDERE&Ccedil;O DE EMAIL</font></h2>
-							<div class="paragraph" style="text-align:left;">
-								<span>
-									falecom@corujalab.com.br
-								</span>
-							</div>
-
-							<h2 class="wsite-content-title" style="text-align:left;"><font size="2" style="font-weight:normal">TELEFONE</font></h2>
-							<div class="paragraph" style="text-align:left;">
-								+55 51 94085430
-							</div>
-
-							<h2 class="wsite-content-title" style="text-align:left;"><font size="2" style="font-weight:normal">ENDERE&Ccedil;O</font></h2>
-							<div class="paragraph" style="text-align:left;">
-								<span>
-									Rua 3, nro. 65, <br />
-									Bairro Bela Vista<br />
-								</span>
-								Montenegro, RS, 95780-000<br />
-								&#8203;Brasil
-							</div>
-
-							<div class="wsite-map">
-							<iframe width="425" height="350"
-								frameborder="0" scrolling="no"
-								marginheight="0" marginwidth="0"
-								src="http://www.openstreetmap.org/export/embed.html?bbox=-51.481311321258545%2C-29.69148264023177%2C-51.452343463897705%2C-29.678657233297407&amp;layer=mapnik&amp;marker=-29.685070141332993%2C-51.466827392578125" style="border: 1px solid black"></iframe>
-							<br/>
-							<small>
-								<a href="https://www.openstreetmap.org/?mlat=-29.6851&amp;mlon=-51.4668#map=16/-29.6851/-51.4668">Ver Mapa Ampliado</a>
-							</small>
 						</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-</div>
-
-</div>
-</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
-
-		{% include footer.html %}
-
 	</div>
 
-		{% include navmobile-wrapper.html %}
-
+	{% include footer.html %}
 </div>
 
-	</body>
-</html>
+{% include navmobile-wrapper.html %}

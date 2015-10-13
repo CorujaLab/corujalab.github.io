@@ -9,11 +9,11 @@
           <div style="clear:both;"></div>
 
           <div class="wsite-form-input-container wsite-form-left wsite-form-input-first-name">
-            <input class="wsite-form-input wsite-input" type="text" name="Nome" />
+            <input class="wsite-form-input wsite-input" type="text" name="Nome" required />
             <label class="wsite-form-sublabel">Nome</label>
           </div>
           <div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-            <input class="wsite-form-input wsite-input" type="text" name="Sobrenome" />
+            <input class="wsite-form-input wsite-input" type="text" name="Sobrenome" required />
             <label class="wsite-form-sublabel">Sobrenome</label>
           </div>
           <p class="help-block text-danger"></p>
@@ -30,7 +30,7 @@
             <input class="wsite-form-input wsite-input wsite-input-width-370px"
                    type="text"
                    name="_replyto"
-                   required data-validation-required-message="Você precisa digitar o seu endereço de email."/>
+                   required/>
           </div>
           <p class="help-block text-danger"></p>
         </div>
@@ -44,7 +44,7 @@
           <div class="wsite-form-input-container">
             <textarea
               class="wsite-form-input wsite-input wsite-input-width-370px"
-              name="Mensagem" style="height: 100px"></textarea>
+              name="Mensagem" style="height: 100px" required></textarea>
           </div>
           <p class="help-block text-danger"></p>
         </div>
@@ -55,9 +55,6 @@
   <div style="text-align:left; margin-top:10px; margin-bottom:10px;">
     <input type="hidden" name="_next" value="/contato/enviado.html" />
     <input type="text" name="_gotcha" style="display:none" />
-    <input type='submit' style='position:absolute;top:0;left:-9999px;width:1px;height:1px' />
-      <a class='wsite-button' onclick="document.getElementById('form-416576752505735968').submit()">
-        <span class='wsite-button-inner'>Enviar</span>
-      </a>
+    <input type='submit' class="wsite-button" style="color: #FFFFFF;" value="Enviar!" />
   </div>
 </form>
