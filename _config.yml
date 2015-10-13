@@ -1,0 +1,10 @@
+title: CorujaLab
+email: falecom@corujalab.com.br
+description: > Você já tem muito trabalho cuidando de seus clientes. Então,
+nada melhor do que deixar a CorujaLab cuidar das informações da sua empresa.
+baseurl: "/"
+url: "https://corujalab.com.br"
+twitter_username: CorujaLab
+github_username:  CorujaLab
+
+markdown: kramdown
